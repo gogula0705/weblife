@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login page</title>
+    <style>
+      * {
+        padding: 0px;
+        margin: 0px;
+      }
+      body {
+        background-color: greenyellow;
+        padding: 30%;
+        padding-top: 10%;
+        font-size: 20px;
+      }
+      .background {
+        background-color: whitesmoke;
+        padding: 0px;
+      }
+      input {
+        width: 100%;
+        border-style: none;
+        padding: 20px;
+      }
+      input[type="submit"] {
+        width: 100%;
+        background-color: greenyellow;
+      }
+      p {
+        text-align: center;
+        a {
+          color: greenyellow;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background">
+      <center>
+        <form>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Enter your Username"
+          /><br /><br />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+          /><br /><br />
+          <input type="submit" value="Login" />
+
+          <p>not registered? <a href="">Create an account</a></p>
+        </form>
+      </center>
+    </div>
+  </body>
+</html>

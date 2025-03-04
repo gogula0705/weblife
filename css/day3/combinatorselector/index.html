@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* 
+        descendant 
+        #teacher p{
+            background-color: gold;
+        } */
+      #teacher > p {
+        background-color: gold;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="teacher">
+      <div id="class1">
+        <h5>boy1</h5>
+        <p>girl1</p>
+      </div>
+      <div id="class2">
+        <p>girl2</p>
+      </div>
+      <p>girl3</p>
+    </div>
+  </body>
+</html>
