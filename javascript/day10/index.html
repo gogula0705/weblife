@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   let arr = [1, 2, 3, 4, 5, 6];
+      //   arr.splice(2, 3, "go", "gu", "la");
+      //   arr.splice(3);
+      //   console.log(arr);
+      //   console.log(arr.reverse());
+      //   console.log(arr.includes("go", 0));
+      //   console.log(arr.indexOf("go"));
+      //   if (Array.isArray(arr)) {
+      //     console.log("yes ,this is a array");
+      //   } else {
+      //     console.log("no, this is not a array");
+      //   }
+      //   let bike = {
+      //     brand: "royal enfield",
+      //     color: "white",
+      //     model: "hunter 350",
+      //     start: function () {
+      //       console.log("bike is started");
+      //     },
+      //     stop: function () {
+      //       console.log("bike is stopped");
+      //     },
+      //     9: "xyz",
+      //   };
+      //   console.log(Object.keys(bike));
+      //   console.log(Object.values(bike));
+      //   console.log(bike[brand]);
+      //   console.log(bike.model);
+      //   console.log(bike[9]);
+      //   console.log(Object.entries(bike));
+      //   bike["start"]();
+      //   bike["stop"]();
+
+      // it will affect the array
+      //   let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+      //   for (let i = 0; i < arr.length; i++) {
+      //     arr[1] += 2;
+      //     console.log(arr[i]);
+      //   }
+
+      // map will not affect the array
+      //   let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+      //   arr.map((ele, index, array) => {
+      // console.log(ele, index, array);
+      // ele += 2;
+      // console.log(ele);
+      //     if (ele % 2 == 0) {
+      //       console.log(ele);
+      //     }
+      //   });
+      //   let month = [
+      //     "jan",
+      //     "Feb",
+      //     "mar",
+      //     "apr",
+      //     "may",
+      //     "june",
+      //     "July",
+      //     "aug",
+      //     "sep",
+      //     "oct",
+      //     "nov",
+      //     "dec",
+      //   ];
+      //   month.map((ele, index, array) => {
+      //     if (ele[0] == "j" || ele[0] == "J") {
+      //       console.log(ele);
+      //     }
+      //   });
+
+      //   let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+      //   let result = arr.filter((ele) => ele % 2 == 0);
+      //   console.log(result);
+
+      //   const numbers = [1, 2, 2, 3, 4, 4, 5];
+      //   let result = numbers.filter((ele, index, array) => {
+      //     if (array.indexOf(ele) == index) {
+      //       return ele;
+      //     }
+      //   });
+      //   console.log(result);
+
+      let color = ["red", "black", "white", "pink"];
+      //   console.log(color[0]);
+      //   console.log(color[2]);
+      //   console.log(color[1]);
+      let [r, b, w, p] = color;
+      console.log(r);
+
+      let obj = {
+        name: "gogula",
+        age: 19,
+        score: 120,
+      };
+
+      let { name: n, age: a, score: s } = obj;
+      console.log(s);
+    </script>
+  </body>
+</html>

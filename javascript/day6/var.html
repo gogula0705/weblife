@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>varletconst</title>
+  </head>
+  <body>
+    <script>
+      //var
+      console.log(2 + 1);
+      console.log(2 - "1");
+      console.log(2 + "1");
+      var data2;
+      var data2 = "sugar";
+      data2 = "salt"; //re-initialisation
+      console.log(data2);
+      console.log(typeof data2);
+      var data2 = "chill"; //re-declaration
+      console.log(data2);
+
+      //let
+      let data = "sugar";
+      data = "salt";
+      console.log(data);
+      //let data = "chill"; re-declaration is not possible in let
+
+      //const
+      //const data1; declaration only is possible in const
+      const data1 = "hello";
+      console.log(data1);
+      //re-declaration and re-initialisation is not possible in const
+    </script>
+  </body>
+</html>
